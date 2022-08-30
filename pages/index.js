@@ -1,9 +1,13 @@
 import Image from "next/image";
 import celsius from '../public/celsius.png'
+import Head from "next/head";
 
 export default function Home() {
     return (
         <div>
+            <Head>
+                <title>celsius narhwal</title>
+            </Head>
             <div className={"grid h-screen place-items-center"}>
                 <div className={"col-auto"}>
                     <Image src={celsius} className={"mask mask-circle"} width={200} height={200}/>
