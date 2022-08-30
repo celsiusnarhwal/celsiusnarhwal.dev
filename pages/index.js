@@ -10,10 +10,10 @@ export default function Home() {
                     <p className={"text-center text-3xl font-semibold"}>celsius narhwal</p>
                     <div className={"row-auto justify-items-center"}>
                         <p className={"text-center pt-2 text-4xl"}>
-                            <a href="https://github.com/celsiusnarhwal" target={"_blank"}>
+                            <a href="https://github.com/celsiusnarhwal" target={"_blank"} rel={"noreferrer"}>
                                 <i className="fa-brands fa-github hover:brightness-200"/>
                             </a>
-                            <a href="https://twitter.com/celsiusnarhwal" target={"_blank"}>
+                            <a href="https://twitter.com/celsiusnarhwal" target={"_blank"} rel={"noreferrer"}>
                                 <i className={"fa-brands fa-twitter pl-3 hover:brightness-200"}/>
                             </a>
                             <a href="mailto:hello@celsiusnarhwal.dev">
